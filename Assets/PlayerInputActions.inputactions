@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Select",
+            "id": "4cdf4a6a-0213-499f-a103-876c63ff7bd1",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "25d88c6f-c2a1-483c-9b51-388bdf778a7e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6b6f7a3b-d3df-43f8-b4e4-da4a9af75847",
+                    "path": "<ViveController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
